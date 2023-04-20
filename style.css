@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+
+.container {
+    display: flex;
+}
+
+.box {
+    width: 250px;
+    height: auto;
+    padding: 50px;
+}
+
+.box img {
+    margin-bottom: 35px;
+}
+
+.box h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    font-family: 'Lexend Deca';
+    text-align: left;
+    font-size: 15px;
+    width: 84%;
+    margin-bottom: 90px;
+}
+
+.box button {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca';
+    border: 3px solid hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+.box1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+
+@media screen and (max-width: 1070px) {
+    .container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .box {
+        width: 210px;
+        height: auto;
+        padding: 35px;
+    }
+
+    .box img {
+        margin-bottom: 25px;
+    }
+
+    .box h1 {
+        margin-bottom: 35px;
+    }
+
+    .box p {
+        margin-bottom: 30px;
+    }
+
+    .box1 {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .box2 {
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    .box3 {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+}
