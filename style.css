@@ -54,6 +54,7 @@ body {
     padding: 13px 30px;
     border-radius: 30px;
     cursor: pointer;
+    transition: 0.2s ease;
 }
 
 .box button:hover {
